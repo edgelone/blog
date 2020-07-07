@@ -16,11 +16,11 @@ module.exports = {
                 text: 'Home', link: '/'
             }
         ],
-        sidebar: [
-            ['/', '首页'],
-            ['/blog/knowledge.md','知识梳理'],
-            ['/blog/team_city.md','TeamCity使用入门']
-        ],
+        // sidebar: [
+        //     ['/', '首页'],
+        //     ['/blog/knowledge.md','知识梳理'],
+        //     ['/blog/team_city.md','TeamCity使用入门']
+        // ],
         blogConfig: {
             category: {
               location: 2,     // 在导航栏菜单中所占的位置，默认2
@@ -37,6 +37,13 @@ module.exports = {
                 desc: 'A simple and beautiful vuepress Blog & Doc theme.',
                 logo: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
                 link: 'https://vuepress-theme-reco.recoluan.com'
+            },
+            {
+                title: '酷壳-CollShell',
+                desc: '陈皓大大的博客',
+                logo: "https://coolshell.cn/coolshell_logo.png",
+                link: 'https://coolshell.cn'
+
             }
           ]
     }

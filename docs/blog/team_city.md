@@ -3,7 +3,7 @@ title: TeamCity使用入门
 date: 2020-07-06
 sidebar: 'auto'
 categories:
- - tools
+ - Tools
  - CI/CD
 tags:
  - CI/CD
