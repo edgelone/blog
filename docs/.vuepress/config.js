@@ -1,7 +1,10 @@
 module.exports = {
     theme: 'reco',
     base: '/blog/',
-    title: 'lk',
+    title: 'L\'s Blog',
+    head:[
+        ['link',{rel:'icon',href:'/favicon.ico'}]
+    ],
     description: '日常折腾笔记',
     themeConfig: {
         type: 'blog',
@@ -15,6 +18,7 @@ module.exports = {
         ],
         sidebar: [
             ['/', '首页'],
+            ['/blog/knowledge.md','知识梳理'],
             ['/blog/team_city.md','TeamCity使用入门']
         ],
         blogConfig: {
